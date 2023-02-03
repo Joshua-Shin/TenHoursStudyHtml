@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+* {
+    border-radius: 4px;    
+    /* background-image: url('./tile.jpeg'); */
+}
+/* 데스크톱 */
+@media (min-width: 501px) {
+    html {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 1000;
+        line-height: 1.8em;
+        letter-spacing: 1px;
+    }
+    nav {
+        position :sticky;
+        top: 0;
+    }
+    .nav-container {
+        background-color: white;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin : 5px;
+    }
+    .nav-item {
+        padding: 15px;
+        margin : 5px;
+        cursor: pointer;
+    }
+    #navigator {
+        text-align: center;
+        height: 40px;
+    }
+    main {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap : wrap;
+        justify-content: center;
+    }
+    body {
+        margin: 10px;
+    }
+    section{
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 650px;
+        margin: 30px;
+    }
+    #week3Section {
+        height : 1350px
+    }
+    #week4Section {
+        height : 1330px
+    }
+    aside {
+        /* border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 240px;
+        margin: 30px; */
+    }
+    article {
+        font-size: 16px;
+        margin: 10px;
+        text-indent: 10px;
+    }
+    table {
+        border: solid 1px;
+        border-width: 1.5px;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 100%;
+    }
+    tr, td {
+        border: solid 1px;
+        padding: 10px;
+        text-align: center;
+        width: 80px;
+    }
+    tr:nth-child(odd) {
+        background-color: rgba(128, 128, 128, 0.3)
+    }
+    #homeTitle {
+        text-decoration: none;
+        font-size:xxx-large;
+        text-align: center;
+        margin: 30px;
+        margin-bottom: 40px;
+    }
+    #homeImageGround {
+        margin: 30px;
+        padding: 10px;
+        background-color: rgba(255, 213, 47, 0.77);
+        text-align: center;
+    }
+    #sectionTitle {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 1000;
+    }
+    #asideTitle {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 1000;
+    }
+    #pushupWoman {
+        width: 630px;
+    }
+    #pushupWomanDiv {
+        text-align: center;
+    }
+    #About {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 240px;
+        margin: 30px;
+    }
+    #Testimonials {
+        /* margin-top: 200px; */
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 240px;
+        margin: 30px;
+    }
+    #TIP1 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 350px;
+        margin: 30px;
+    }
+    #TIP2 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 750px;
+        margin: 30px;
+    }
+    #TIP3 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 250px;
+        margin: 30px;
+    }
+    #TIP4 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 180px;
+        margin: 30px;
+    }
+    #TIP5 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 320px;
+        margin: 30px;
+    }
+    #TIP6 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 120px;
+        margin: 30px;
+    }
+    #TIP7 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 350px;
+        margin: 30px;
+    }
+    #TIP8 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 500px;
+        margin: 30px;
+    }
+    #TIP9 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 210px;
+        margin: 30px;
+    }
+    #TIP10 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 590px;
+        margin: 30px;
+    }
+    #TIP11 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 470px;
+        margin: 30px;
+    }
+    #testimonialsTitle {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 1000;
+    }
+    #AreYouReady {
+        border: 1px solid;
+        font-size: 27px;
+        text-align: center;
+        line-height: 1.5em;
+        padding: 10px;
+        width: 300px;
+        height: 18  0px;
+        margin: 30px;
+    }
+    #YES {
+        font-size: 40px;
+    }
+}
+
+/* 모바일 화면 */
+@media (max-width: 500px) {
+    html {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 1000;
+        line-height: 1.8em;
+        letter-spacing: 1px;
+    }
+    #homeTitle {
+        text-decoration: none;
+        font-size:xx-large;
+        text-align:center;
+        width: 100vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* 모바일 */
+    /* nav {
+        position :sticky;
+        top: 0;
+    } */
+    #navigator {
+        text-align: left;
+        font-size: 13px;
+        /* line-height: 1.8em; */
+        /* height: 40px; */
+    }
+    .nav-container {
+        background-color: white;
+        /* list-style: none; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* margin : 0px; */
+    }
+    .nav-item {
+        padding: 5px;
+        /* margin : 5px; */
+        cursor: pointer;
+    }
+    #homeImageGround {
+        /* margin-top: 0px; */
+        padding: 10px;
+        background-color: rgba(255, 213, 47, 0.77);
+        text-align: center;
+    }
+    #logo {
+        width: 80vw;
+        height: 20vh;
+    }
+    main {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap : wrap;
+        justify-content: center;
+    }
+    body {
+        margin: 10px;
+    }
+    section{
+        border: 1px solid;
+        font-size: 13px;
+        padding: 5px;
+        width: 90vw;
+        margin: 15px;
+    }
+    #pushupWoman {
+        width: 80vw;
+    }
+    #pushupWomanDiv {
+        text-align: center;
+    }
+    #week3Section {
+        height : 1250px
+    }
+    #week4Section {
+        height : 1230px
+    }
+    aside {
+        /* border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 240px;
+        margin: 30px; */
+    }
+    article {
+        font-size: 15px;
+        margin: 10px;
+        text-indent: 10px;
+    }
+    /* 모바일 */
+    table {
+        font-size: 11px;
+        border: solid 1px;
+        border-width: 1.5px;
+        border-collapse: collapse;
+        padding: 5px;
+        width: 80vw;
+        /* justify-content: center; */
+        /* width: 100%; */
+        /* overflow-x: auto; */
+    }
+    tr, td {
+        border: solid 1px;
+        padding: 10px;
+        text-align: center;
+        width: 80px;
+    }
+    tr:nth-child(odd) {
+        background-color: rgba(128, 128, 128, 0.3)
+    }
+    #sectionTitle {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 1000;
+    }
+    #asideTitle {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 1000;
+    }
+    #About {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 240px;
+        margin: 30px;
+    }
+    #Testimonials {
+        /* margin-top: 200px; */
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 240px;
+        margin: 30px;
+    }
+    #TIP1 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 350px;
+        margin: 30px;
+    }
+    #TIP2 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 750px;
+        margin: 30px;
+    }
+    #TIP3 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 250px;
+        margin: 30px;
+    }
+    #TIP4 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 180px;
+        margin: 30px;
+    }
+    #TIP5 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 320px;
+        margin: 30px;
+    }
+    #TIP6 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 120px;
+        margin: 30px;
+    }
+    #TIP7 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 350px;
+        margin: 30px;
+    }
+    #TIP8 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 500px;
+        margin: 30px;
+    }
+    #TIP9 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 210px;
+        margin: 30px;
+    }
+    #TIP10 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 590px;
+        margin: 30px;
+    }
+    #TIP11 {
+        border: 1px solid;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        height: 470px;
+        margin: 30px;
+    }
+    #testimonialsTitle {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 1000;
+    }
+    #AreYouReady {
+        border: 1px solid;
+        font-size: 27px;
+        text-align: center;
+        line-height: 1.5em;
+        padding: 10px;
+        width: 300px;
+        height: 18  0px;
+        margin: 30px;
+    }
+    #YES {
+        font-size: 40px;
+    }
+}
