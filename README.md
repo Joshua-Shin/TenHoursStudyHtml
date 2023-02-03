@@ -1,7 +1,12 @@
-#### 개발환경
+TenHoursStudy 웹사이트의 html 저장소입니다.
+--------------------
+
+- [Root 저장소](https://github.com/Joshua-Shin/TenHoursStudy)
+
+### 개발환경
 VScode, HTML5, CSS3
 
-#### 진행상황
+### 진행상황
 - [x] HTML 학습
 - [x] CSS 학습
 - [x] 사이트맵 작성
