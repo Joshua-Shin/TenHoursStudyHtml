@@ -16,3 +16,4 @@ VScode, HTML5, CSS3
     - [x] 네비게이션 레이아웃 수정
     - [x] table 표 스크롤 기능 추가
 - [x] github를 통해 hosting 테스트
+- [ ] 이미지 교체
