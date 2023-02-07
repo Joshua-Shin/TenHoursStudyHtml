@@ -17,3 +17,4 @@ VScode, HTML5, CSS3
     - [x] table 표 스크롤 기능 추가
 - [x] github를 통해 hosting 테스트
 - [ ] 이미지 교체
+- [ ] 배경색을 화이트가 아니라 #F2F2F2로, 검정색은 #222222로 변경
